@@ -13,11 +13,32 @@
     .custom-background-color{
       background-color: hsl(212, 45%, 89%);
     }
+
+    .custom-card-color{
+      background-color: hsl(0, 0%, 100%);
+    }
+
+    .custom-text-head-color{
+      color: hsl(218, 44%, 22%);
+    }
+    .custom-text-color{
+      color: hsl(220, 15%, 55%);
+      font-weight: 17px;
+    }
   </style>
 
 </head>
-<body class="h-screen custom-background-color">
-  <h1>QR code component</h1>
+<body class="h-screen custom-background-color grid place-content-center">
+  <div class="min-w-48 max-w-80 custom-card-color shadow-lg rounded-2xl">
+    <div class="flex items-center justify-center">
+      <img class="p-4 rounded-3xl" src="./images/image-qr-code.png" alt="QR code illustration">
+    </div>
+    <div class="px-7 py-4 ">
+      <h1 class=" mb-2 text-center custom-text-head-color text-[18px] font-bold">Improve your front-end skills by building projects</h1>
+      <p class="text-gray-700 text-center custom-text-color text-[15px]">Scan your QR code to visit frontend mentor and take your frontend skills to next level</h1>
+    </div>
+    </div>
+  </div>
 </body>
 </html>
 
