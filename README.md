@@ -37,5 +37,5 @@ In our continued development, we aim to refine our color scheming to ensure a vi
 
 ## Author
 
-- Author - Aleena Khan
-- Linkdin - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Author - [Aleena Khan](https://github.com/AleenaKhan10)
+- Linkdin - [@AleenaKhan](https://www.frontendmentor.io/profile/yourusername)
