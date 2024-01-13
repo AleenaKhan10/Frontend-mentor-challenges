@@ -20,12 +20,16 @@
       color: hsl(293, 78%, 38%);
     }
 
-    .answer{
-      display: none;
+    .answer {
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: opacity 0.3s, max-height 0.3s;
     }
-
-    .answer.active{
-      display: block;
+  
+    .answer.active {
+      opacity: 1;
+      max-height: 500px; /* Adjust this value to the maximum height needed */
     }
 
   </style>
@@ -54,23 +58,23 @@
       </div>
       <div>
         <div class="expand flex items-center justify-between gap-4 my-4">
-          <p class=" font-semibold text-[16px] question duration-300">Lorem ipsum dolor sit, amet consetur isicing elit. Dolo, amet!</p>
+          <p class=" font-semibold text-[16px] question duration-300">Lorem ipsum dolor sit amet consectetur.</p>
           <svg class="svg block" xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" viewBox="0 0 30 31"><path fill="#AD28EB" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"/></svg>
           <svg class="svg hidden" xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" viewBox="0 0 30 31"><path fill="#301534" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0 1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z"/></svg>
         </div>
         <div class="answer">
-          <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam earum tenetur, perferendis fuga fugiat facere culpa at ab atque temporibus ipsam omnis eum iusto quibusdam minima ducimus. Est, ipsam sapiente.</p>
+          <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sint, quos repellendus provident eius quaerat.</p>
         </div>
         <hr>
       </div>
       <div>
         <div class="expand flex items-center justify-between gap-4 my-4">
-          <p class=" font-semibold text-[16px] question duration-300">Lorem ipsum dolor sit, amet consetur isicing elit. Dolo, amet!</p>
+          <p class=" font-semibold text-[16px] question duration-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           <svg class="svg block" xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" viewBox="0 0 30 31"><path fill="#AD28EB" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"/></svg>
           <svg class="svg hidden" xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" viewBox="0 0 30 31"><path fill="#301534" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0 1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z"/></svg>
         </div>
         <div class="answer">
-          <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam earum tenetur, perferendis fuga fugiat facere culpa at ab atque temporibus ipsam omnis eum iusto quibusdam minima ducimus. Est, ipsam sapiente.</p>
+          <p class="mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, necessitatibus?</p>
         </div>
       </div>
     </div>
