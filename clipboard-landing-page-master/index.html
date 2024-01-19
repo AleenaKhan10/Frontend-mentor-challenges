@@ -5,12 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap">
+
   <script src="https://cdn.tailwindcss.com"></script> 
 
   
   <title>Frontend Mentor | Clipboard landing page</title>
 
   <style>
+    @layer utilities {
+      .font-bai-jamjuree {
+        font-family: 'Bai Jamjuree', sans-serif;
+      }
+    }
+    
     .custom-button-color-cyan{
       background-color: hsl(171, 66%, 44%);
     }
@@ -32,12 +40,12 @@
   </style>
 
 </head>
-<body>
-  <div class="mb-10">
+<body class="font-bai-jamjuree">
+  <div class="mb-10 font-bai-jamjuree">
     <img class="absolute w-full" src="./images/bg-header-desktop.png" alt="Background image">
     <div class="px-80 flex justify-center items-center flex-col py-32">
       <svg class="align-center  w-100 h-100 mb-9" width="125" height="125" xmlns="http://www.w3.org/2000/svg"><g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd"><circle cx="62.5" cy="62.5" r="57.5"/><path d="M85.481 85.481c-12.692 12.692-33.27 12.692-45.962 0s-12.692-33.27 0-45.962 33.27-12.692 45.962 0" stroke-linecap="round"/></g></svg>
-      <p class="text-[45px] font-bold text-center custom-text-color-header">A history of everything you copy</p>
+      <p class="md:text-[40px] font-bold text-center custom-text-color-header text-[28px]">A history of everything you copy</p>
       <p class="text-center text-[18px] my-3 custom-button-color-paragraph">Clipboard allow you to track and organize everything you copy. Instantly access you clipboard from all of your devices</p>
       <div class="flex text-center my-7">
         <a href="" class="custom-button-color-cyan px-12 py-3 rounded-3xl text-white drop-shadow-lg">Download for IOS</a>
@@ -47,7 +55,7 @@
   </div>
   <div class="mb-36">
     <div class="px-80 flex justify-center items-center flex-col mb-20">
-      <p class="text-[40px] font-semibold text-center custom-text-color-header">Keep track of your snippets</p>
+      <p class="text-[35px] font-semibold text-center custom-text-color-header">Keep track of your snippets</p>
       <p class="text-center text-[18px] my-3 custom-button-color-paragraph">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
     </div>
     <div class="grid grid-cols-2 gap-32">
@@ -56,15 +64,15 @@
       </div>
       <div class="py-12 pr-56 mr-10">
         <div class="mb-12">
-          <h3 class = "text-[20px] font-medium custom-text-color-header">Quick Search</h3>
+          <h3 class = "text-[20px] font-semibold custom-text-color-header">Quick Search</h3>
           <p class="text-[16px] custom-button-color-paragraph">Easily seatch your snippet by content, category, web address, application, and more.</p>
         </div>
         <div class="mb-12">
-          <h3 class = "text-[20px] font-medium custom-text-color-header">iCloud Sync</h3>
+          <h3 class = "text-[20px] font-semibold custom-text-color-header">iCloud Sync</h3>
           <p class="text-[16px] custom-button-color-paragraph">Instantly saves and syncs snippets across all your devices.</p>
         </div>
         <div class="mb-6">
-          <h3 class = "text-[20px] font-medium custom-text-color-header">Complete History</h3>
+          <h3 class = "text-[20px] font-semibold custom-text-color-header">Complete History</h3>
           <p class="text-[16px] custom-button-color-paragraph">Retrieve any snippets from the first moment you started using the app.</p>
         </div>
       </div>
@@ -118,8 +126,8 @@
       <p class="text-[40px] font-semibold text-center custom-text-color-header">Clipboard for iOS and Mac OS</p>
       <p class="text-center text-[18px] my-3 custom-button-color-paragraph">Available for free on the App Store. Download for Mac or iOS, sync with iCload and you're ready to start adding to your clipboard.</p>
       <div class="flex text-center my-8">
-        <a href="" class="custom-button-color-cyan px-20 py-3 rounded-3xl text-white drop-shadow-lg">Download for IOS</a>
-        <a href="" class="custom-button-color-blue px-20 py-3 mx-4 rounded-3xl text-white drop-shadow-lg">Download for Mac</a>
+        <a href="" class="custom-button-color-cyan px-12 py-3 rounded-3xl text-white drop-shadow-lg">Download for IOS</a>
+        <a href="" class="custom-button-color-blue px-12 py-3 mx-4 rounded-3xl text-white drop-shadow-lg">Download for Mac</a>
       </div>
     </div>
   </div>
