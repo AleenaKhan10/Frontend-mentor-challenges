@@ -37,30 +37,45 @@
     .custom-footer-background-color{
       background-color: hsla(0, 0%, 84%, 0.366);
     }
+
+    @layer utilities {
+      .font-bai-jamjuree {
+        font-family: 'Bai Jamjuree', sans-serif;
+      }
+    }
+    
+    body {
+      overflow-x: hidden;
+    }
+
   </style>
 
 </head>
-<body class="font-bai-jamjuree">
-  <div class="mb-10 font-bai-jamjuree">
-    <img class="absolute w-full" src="./images/bg-header-desktop.png" alt="Background image">
-    <div class="px-80 flex justify-center items-center flex-col py-32">
-      <svg class="align-center  w-100 h-100 mb-9" width="125" height="125" xmlns="http://www.w3.org/2000/svg"><g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd"><circle cx="62.5" cy="62.5" r="57.5"/><path d="M85.481 85.481c-12.692 12.692-33.27 12.692-45.962 0s-12.692-33.27 0-45.962 33.27-12.692 45.962 0" stroke-linecap="round"/></g></svg>
-      <p class="md:text-[40px] font-bold text-center custom-text-color-header text-[28px]">A history of everything you copy</p>
-      <p class="text-center text-[18px] my-3 custom-button-color-paragraph">Clipboard allow you to track and organize everything you copy. Instantly access you clipboard from all of your devices</p>
-      <div class="flex text-center my-7">
-        <a href="" class="custom-button-color-cyan px-12 py-3 rounded-3xl text-white drop-shadow-lg">Download for IOS</a>
-        <a href="" class="custom-button-color-blue px-12 py-3 mx-4 rounded-3xl text-white drop-shadow-lg">Download for Mac</a>
+<body class="font-bai-jamjuree p-0 m-0 w-screen">
+  <div class="grid justify-items-center">
+    <img class="absolute" src="./images/bg-header-desktop.png" alt="Background image">
+    <div class="w-1/2">
+      <div class="flex justify-center items-center flex-col py-32 text-[14px] ">
+        <svg class="align-center  w-100 h-100 mb-9" width="125" height="125" xmlns="http://www.w3.org/2000/svg"><g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd"><circle cx="62.5" cy="62.5" r="57.5"/><path d="M85.481 85.481c-12.692 12.692-33.27 12.692-45.962 0s-12.692-33.27 0-45.962 33.27-12.692 45.962 0" stroke-linecap="round"/></g></svg>
+        <p class="md:text-[40px] font-bold text-center custom-text-color-header text-[25px]">A history of everything you copy</p>
+        <p class="text-center md:text-[18px] text-[14px] my-3 custom-button-color-paragraph">Clipboard allow you to track and organize everything you copy. Instantly access you clipboard from all of your devices</p>
+        <div class="flex text-center my-7 md:flex-row flex-col">
+          <a href="" class="custom-button-color-cyan px-12 py-3 md:mx-2 my-2 rounded-3xl text-white drop-shadow-lg">Download for IOS</a>
+          <a href="" class="custom-button-color-blue px-12 py-3 md:mx-2 my-2 rounded-3xl text-white drop-shadow-lg">Download for Mac</a>
+        </div>
       </div>
     </div>
   </div>
-  <div class="mb-36">
-    <div class="px-80 flex justify-center items-center flex-col mb-20">
-      <p class="text-[35px] font-semibold text-center custom-text-color-header">Keep track of your snippets</p>
-      <p class="text-center text-[18px] my-3 custom-button-color-paragraph">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+  <div class="mb-28">
+    <div class="grid justify-items-center text-[14px] ">
+      <div class="w-1/2 mb-12">
+        <p class="md:text-[35px] text-[23px] font-semibold text-center custom-text-color-header">Keep track of your snippets</p>
+        <p class="text-center md:text-[18px] my-3 custom-button-color-paragraph">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+      </div>
     </div>
-    <div class="grid grid-cols-2 gap-32">
+    <div class="grid md:grid-cols-2 gap-32">
       <div class="overflow-hidden ">
-        <img class="mr" src="./images/image-computer.png" alt="">
+        <img class="md:w-auto p-20" src="./images/image-computer.png" alt="">
       </div>
       <div class="py-12 pr-56 mr-10">
         <div class="mb-12">
