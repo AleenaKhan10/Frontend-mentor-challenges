@@ -14,7 +14,7 @@ Thanks for checking out this front-end coding challenge.
 
 The challenge is to build out this FAQ accordion and get it looking as close to the design as possible.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to Try it.
 
 Your users should be able to: 
 
